@@ -1,0 +1,55 @@
+.addproductt {
+  height: 120vh;
+  color: rgb(10, 10, 10);
+  background-size: cover;
+  background-color: rgb(190, 185, 185);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#adproductinfo {
+  display: grid;
+}
+#descriptionbox {
+  height: 100px;
+}
+#categorybox {
+  width: 60vh;
+  height: 50px;
+}
+.addproductpage {
+}
+#addinfo {
+  position: relative;
+  top: 1cm;
+}
+.previewright {
+}
+.previewadd {
+  height: 74vh;
+  width: 110vh;
+
+  position: relative;
+  top: 1.5cm;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(244, 242, 239, 0.04);
+}
+.previewbg {
+  background-color: white;
+  /* padding: 1cm; */
+  display: flex;
+  justify-content: center;
+  height: max-content;
+  width: 110vh;
+}
+
+#demoheadings > p {
+  font-size: 12px;
+}
+.previewright {
+  display: flex;
+  flex-direction: column;
+}

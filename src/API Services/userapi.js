@@ -1,0 +1,1 @@
+export const USER_UPI='https://fakestoreapi.com/users'

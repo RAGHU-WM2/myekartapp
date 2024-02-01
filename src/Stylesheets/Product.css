@@ -1,0 +1,82 @@
+
+.card{
+    width: 240px;
+    height: 350px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border:2px solid rgb(236, 233, 233);
+    background-color: rgb(255, 255, 255);
+    line-height: 8px;
+        color: black;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card>p{
+    font-size: 12px;
+    border: 0.3px solid #bdbdc2;
+    padding: 0;
+    display: flex;
+    
+}
+.cardIn{
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    /* padding: 2cm; */
+    height: 200px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+align-items: center;
+    /* position: relative; */
+    /* right: 13px; */
+    
+}
+.imgpc{
+    display: grid;
+    /* padding: 4cm ; */
+}
+.pcardicons{
+    margin-top: -0.2cm;
+    margin-left: 4cm;
+}
+.pcardbtn{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 1cm;
+    /* padding: 0cm 1cm; */
+
+   
+    
+    }
+    .cardup{
+        display: flex;
+        margin-top: 10px;
+        /* gap: 3cm;     */
+        line-height: 16px;
+        font-size: 11px;
+        justify-content: space-between;
+    }
+    #buybtn{
+        width: 84px!important;
+        border-radius: 3px;
+        height: 30px;
+        font-size: 10px;
+    
+    }
+    #cartbtn{
+        width: 240px!important;
+        border-radius: 3px;
+        /* height: 9px; */
+        font-size: 10px;
+    
+    }
+    #pimg{
+    }
+    #pimg:hover{
+       transition:  transform 300ms ease-in-out;        transform:  scale(1.09);
+
+      
+    }

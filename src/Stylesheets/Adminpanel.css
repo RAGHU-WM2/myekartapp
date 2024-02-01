@@ -1,0 +1,21 @@
+.admintabel {
+  background-color: #f1efef;
+
+  width: 100%;
+}
+
+#content {
+  width: 1cm;
+}
+.btnadd {
+  color: white !important;
+  text-decoration: none !important;
+}
+.btnsadmin{
+  padding: 6px 0.8cm;
+  border-radius: 2px;
+  font-size: 12px;
+}
+#buybtn{
+  margin-top: -7px;
+}

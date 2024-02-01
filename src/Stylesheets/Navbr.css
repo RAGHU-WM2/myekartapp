@@ -1,0 +1,12 @@
+#navbr{
+    font-family: poppins;
+}
+.navbtnadmin{
+padding: 0cm 1cm;
+display: flex;
+ gap: 1cm; 
+}
+#navmainlink{
+    text-decoration: none;
+    color: black;
+}

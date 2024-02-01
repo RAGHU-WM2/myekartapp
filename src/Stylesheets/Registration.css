@@ -1,0 +1,55 @@
+.registerpage{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.reginputs{
+    display: grid;
+    gap: 10px;
+}
+#reginptfield{
+    width: 380.967px;
+height: 50.311px;
+flex-shrink: 0;border-radius: 12px;
+border: 1px solid rgba(0, 0, 0, 0.25);
+background: rgba(196, 196, 196, 0.00);
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+#reginptfield:active{
+   border-style: none;
+}
+
+.reginputs,.logleft>p{
+    color: #636364;  
+    font-weight: 400;
+}
+.regremember{
+    display: flex;
+    align-items: center;
+}
+.regcoloumn{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    line-height: 10px;
+}
+.passwordreg{
+    margin-top: 0.5cm;
+}
+#signfield{
+    width: 380.967px;
+    height: 50.311px;
+    flex-shrink: 0;border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: #EA454C;
+    color: white;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.regright{
+margin-top: 50px;
+}
+#reglink{
+    text-decoration: none;
+    color: #EA454C;
+}
